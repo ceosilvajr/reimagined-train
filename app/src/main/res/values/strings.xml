@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SignMe</string>
+    <string name="btn_save">save</string>
+    <string name="btn_clear">Clear</string>
+</resources>
