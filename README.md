@@ -7,8 +7,7 @@ Android Application for detecting human signature
 - Rx (RxAndroid, RxKotlin)
 - Android Room Database
 
-#Demo
+# Demo
 See it in action!
 
-#
 ![Demo](/art/signme.gif)
