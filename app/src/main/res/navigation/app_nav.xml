@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ceosilvajr.signme.views.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_pirmaListFragment"
+            app:destination="@id/pirmaListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pirmaListFragment"
+        android:name="com.ceosilvajr.signme.views.PirmaListFragment"
+        android:label="@string/title_list_pirma"
+        tools:layout="@layout/fragment_pirma_list">
+        <action
+            android:id="@+id/action_pirmaListFragment_to_pirmaDetailsFragment"
+            app:destination="@id/pirmaDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pirmaDetailsFragment"
+        android:name="com.ceosilvajr.signme.views.PirmaDetailsFragment"
+        android:label="@string/title_details"
+        tools:layout="@layout/fragment_pirma_details" />
+</navigation>

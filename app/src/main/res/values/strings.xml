@@ -2,4 +2,12 @@
     <string name="app_name">SignMe</string>
     <string name="btn_save">save</string>
     <string name="btn_clear">Clear</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_pirma_list">List of Pirma</string>
+    <string name="menu_home">Home</string>
+    <string name="please_sign_below">Please sign below</string>
+    <string name="title_home">Home</string>
+    <string name="title_list_pirma">List of Pirma</string>
+    <string name="title_details">Details</string>
+    <string name="btn_delete">Delete</string>
 </resources>
