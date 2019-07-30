@@ -8,6 +8,4 @@ Android Application for detecting human signature
 - Android Room Database
 
 # Demo
-See it in action!
-
-![Demo](/art/signme.gif)
+![Animated Gif](/art/signme.gif)
